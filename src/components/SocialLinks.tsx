@@ -2,12 +2,12 @@
 import React from "react";
 import { FaGithub, FaEnvelope, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-// import ResumeButton from "../components/ResumeButton";
+import ResumeButton from "../components/ResumeButton";
 
 const SocialLinks: React.FC = () => {
   return (
     <div className="flex space-x-3 items-center">
-      {/* <ResumeButton /> */}
+      <ResumeButton />
       <a
         href="https://github.com/SibilSoren"
         target="_blank"
