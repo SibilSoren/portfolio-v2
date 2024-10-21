@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
 import SocialLinks from "../components/SocialLinks";
 import Education from "../components/Education";
 import Footer from "../components/Footer";
@@ -24,7 +24,7 @@ export default function Home() {
           <Skills />
           <Experience />
           <Education />
-          {/* <Projects /> */}
+          <Projects />
         </main>
         <Footer />
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
             <Skills />
             <Experience />
             <Education />
-            {/* <Projects /> */}
+            <Projects />
           </main>
           <Footer />
         </div>
