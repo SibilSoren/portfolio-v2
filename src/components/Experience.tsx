@@ -57,7 +57,7 @@ const experiences: Job[] = [
     title: "Full Stack Developer Intern",
     company: "eClerx",
     location: "Pune, Maharashtra",
-    period: "September 2021 - January 2023",
+    period: "September 2021 - January 2022",
     description: [
       "Implementing state management solutions such as Redux API to manage the application's data and state.",
       "Building reusable and modular UI components using React.js and related libraries.",
