@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type SkillCategory = 'languages' | 'frameworks' | 'backend' | 'databases' | 'practices';
+export type SkillCategory = 'languages' | 'frameworks' | 'backend' | 'databases' | 'practices' | 'devops';
 
 interface ChipProps {
   text: string;
@@ -13,6 +13,7 @@ const categoryColors: Record<SkillCategory, { bg: string; text: string }> = {
   backend: { bg: 'bg-purple-500', text: 'text-purple-500' },
   databases: { bg: 'bg-red-500', text: 'text-red-500' },
   practices: { bg: 'bg-yellow-500', text: 'text-yellow-500' },
+  devops: { bg: 'bg-pink-500', text: 'text-pink-500' },
 };
 
 export const Chip: React.FC<ChipProps> = ({ text, category }) => {

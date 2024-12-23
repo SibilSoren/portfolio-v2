@@ -14,6 +14,37 @@ interface Job {
 
 const experiences: Job[] = [
   {
+    title: "Senior Analyst",
+    company: "Accenture",
+    location: "Kolkata, West Bengal",
+    period: "November 2024 -  Present",
+    description: [
+      "Developing and maintaining robust backend services using Node.js and Express.js for financial applications",
+      "Implementing scalable microservices architecture to enhance system performance and reliability",
+      "Designing and optimizing database schemas for MySQL and MongoDB to support complex financial data models",
+      "Collaborating with cross-functional teams to deliver high-impact solutions in the financial technology sector",
+      "Integrating RESTful APIs and implementing secure authentication mechanisms for sensitive financial data"
+    ],
+    logo: "/accenture_logo.png",
+    skills: [
+      "NodeJs",
+      "ExpressJS",
+      "MongoDB",
+      "MySQL",
+      "Kafka",
+      "Splunk",
+      "Docker",
+      "Kubernetes",
+      "GraphQL",
+      "Redis",
+      "CI/CD",
+      "Microservices",
+      "REST APIs",
+      "Backend Architecture",
+      "System Design"
+    ],
+  },
+  {
     title: "Software Developer",
     company: "Team Geek Solution",
     location: "Pune, Maharashtra",

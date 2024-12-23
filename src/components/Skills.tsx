@@ -3,10 +3,11 @@ import { ChipList, SkillCategory } from "./Chips";
 
 const skills: { [key in SkillCategory]: string[] } = {
   languages: ["JavaScript", "TypeScript", "Python"],
-  frameworks: ["ReactJS", "NextJS", "Tailwind", "React Native", "ExpressJS"],
-  backend: ["Node.js", "REST APIs", "Microservices"],
-  databases: ["MongoDB", "Postgres", "SQL"],
-  practices: ["Micro-frontend", "Agile", "Git"],
+  frameworks: ["ExpressJS", "Node.js"],
+  backend: ["REST APIs", "Microservices", "GraphQL", "Backend Architecture", "System Design"],
+  databases: ["MongoDB", "MySQL", "Redis"],
+  devops: ["Docker", "Kubernetes", "CI/CD", "Kafka", "Splunk"],
+  practices: ["Agile", "Git"],
 };
 
 const Skills: React.FC = () => {

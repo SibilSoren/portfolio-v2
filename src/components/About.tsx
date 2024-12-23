@@ -11,7 +11,7 @@ const calculateAge = (birthDate: Date): number => {
 };
 
 const About: React.FC = () => {
-  const birthDate = new Date(2021, 5, 12); // June 12, 2002
+  const birthDate = new Date(2020, 5, 12); // June 12, 2002
   const age = calculateAge(birthDate);
 
   return (
