@@ -23,7 +23,7 @@ const About: React.FC = () => {
         frontend and backend technologies, enabling me to craft comprehensive
         solutions from the ground up.
       </p>
-      <p className="text-gray-300 mb-4">
+      <p className="text-gray-300 mb-4 hidden">
         Driven by a passion for coding and problem-solving, I excel in creating
         user-centric applications with a focus on clean code and
         maintainability. My technical skills are complemented by strong
